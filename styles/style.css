@@ -76,6 +76,9 @@
  
 }
 .banner-heading{
+    display: flex;
+    width: 596px;
+    height: 80px;
     color: #FFF;
 font-size: 64px;
 font-weight: 800;
@@ -89,7 +92,7 @@ font-weight: 800;
     transform: translate(-50%, -50%);
 }
 .banner-heading-02{
-    color: #0c4b1f;
+    color: #fdfcfc;
     font-size: 26px;
 font-style: normal;
 font-weight: 400;
@@ -103,19 +106,115 @@ line-height: 26px;
     transform: translate(-50%, -50%);
 }
 .buttons{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: auto;
     height: 20px;
     display: inline-flex;
     padding: 16px;
     align-items: flex-start;
     gap: 24px;
-    border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
+    border-radius: 6px;
+  
    
 }
- .btn{
+ .btn1,.btn2,.btn3,.btn4{
     width: 150px;
+    border-radius: 6px;
+    padding:  5px 0;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
     
 }
+.btn4{ 
+   
+    color: #FFF;
+    background-color: #FF5400;
+}
 
+
+
+
+/* banner container ends here */
+
+/* tours-container starts here */
+   
+.tours-container{
+   width: 1000px;
+   height: 400px;
+   /* border: 2px solid grey; */
+   display: flex;
+   margin: 0 auto;
+   margin-top: 60px;
+   
+  
+}
+.tours-container img{
+    width: 400px;
+    height: 400px;
+
+}
+.Tours-Details{
+    max-width:500px ; 
+   width: 400px;
+   height: 400px;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: left;
+  margin-right: auto;
+  
+}
+
+
+.Tours-Details h1{
+    width: 300px;
+    height: 50px;
+    padding-bottom: 5px ;
+    margin: auto 0px;
+}
+
+.Tours-Details .btn{
+   background-color:#FF5400;
+   color: #FFF;
+   border: none;
+   border-radius: 5px;
+   width: 140px;
+   height: 30px;
+}
+
+/* tours-container ends here */
+
+
+/* @media  screen and ( max-width:600px) {
+    .nav-container{
+        flex-direction: column;
+    }
+    .nav-heading img{
+        width: 60px;
+        object-fit: cover;
+    }
+    .nav-heading p{
+        font-size:40px;
+    }
+    .items-container{
+        font-size: 36px;
+    }
+    
+    .banner-container{
+        width: 600px;
+    }
+    .banner-heading{
+        position: fixed;
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+       font-size: 32px;
+      font-weight: 800;
+      border: 2px solid red;
+      
+    }
+} */
