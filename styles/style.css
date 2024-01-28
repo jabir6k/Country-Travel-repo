@@ -188,33 +188,46 @@ line-height: 26px;
 
 /* tours-container ends here */
 
+/* destinations start here */
+.Destintions{
+    width: 1000px;
+    /* border: 2px solid mediumspringgreen; */
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.Destintions h1{
+    /* border: 2px solid blue; */
+    width:478px ;
+    height:50px ;
+    font-size: 40px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
 
-/* @media  screen and ( max-width:600px) {
-    .nav-container{
-        flex-direction: column;
-    }
-    .nav-heading img{
-        width: 60px;
-        object-fit: cover;
-    }
-    .nav-heading p{
-        font-size:40px;
-    }
-    .items-container{
-        font-size: 36px;
-    }
+.Destintions p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding:  20px 0;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+/* destinations ends here */
+
+/* countries-images start here */
+
+.countries-images{
+    width: 1000px;
     
-    .banner-container{
-        width: 600px;
-    }
-    .banner-heading{
-        position: fixed;
-        width: 50%;
-        justify-content: center;
-        align-items: center;
-       font-size: 32px;
-      font-weight: 800;
-      border: 2px solid red;
-      
-    }
-} */
+}
+
+
+/* countries-images end here */
