@@ -226,20 +226,24 @@ line-height: 26px;
 
 .countries-images{
     width: 1000px;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
     
 }
+
+  /* first-banner starts here */
+
 .first-banner{
     width: 100%;
     height: 300px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    column-gap: 20px;
+    column-gap: 10px;
     
    
 }
@@ -254,7 +258,7 @@ line-height: 26px;
     display: flex;
     align-items: start;
     justify-content: start;
-    border: 2px solid salmon;
+    /* border: 2px solid salmon; */
 }
 .rectangle-5 p{
     /* border: 2px solid goldenrod; */
@@ -284,5 +288,105 @@ line-height: 26px;
     justify-content: end;
 }
 
+.rectangle-8 p{
+    width: 120px;
+    height: 35px;
+    font-size: 28px;
+    font-weight: 800px;
+    color: #FFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
+/* first-banner ends here  */
+
+/* second banner starts here */
+
+.second-banner{
+    /* border: 2px solid blue; */
+    width: 1000px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 15px;
+    margin-top: 20px;
+}
+
+.rectangle-6{
+    /* border: 2px solid goldenrod; */
+    
+    position: relative;
+    text-align: center;
+}
+.rectangle-6 img{
+    width: 310px;
+    height: 300px;
+    display: flex;
+    align-items:start;
+    justify-content:start;
+}
+.rectangle-6 p{
+    width: 140px;
+    height: 35px;
+    font-size: 28px;
+    font-weight: 800px;
+    color: #FFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.rectangle-7{
+    position: relative;
+    text-align: center;
+}
+.rectangle-7 img{
+    width: 360px;
+   height: 300px;
+   display: flex;
+   align-items:center;
+   justify-content:center;
+}
+
+.rectangle-7 p{
+    width: 200px;
+    height: 35px;
+    font-size: 28px;
+    font-weight: 800px;
+    color: #FFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.rectangle-9{
+    position: relative;
+    text-align: center;
+} 
+.rectangle-9 img{
+    width: 290px;
+    height: 300px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+.rectangle-9 p{
+    width: 200px;
+    height: 35px;
+    font-size: 28px;
+    font-weight: 800px;
+    color: #FFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* second banner ends here */
 /* countries-images end here */
