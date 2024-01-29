@@ -962,3 +962,48 @@ height: 25px;
     margin: 0 auto;
     margin-top: 30px;
  }
+
+
+ .perfect-place{
+    width: 1000px;
+    height: 400px;
+    /* border: 2px solid grey; */
+    display: flex;
+    margin: 0 auto;
+    margin-top: 60px;
+    
+   
+ }
+ .tours-container img{
+     width: 400px;
+     height: 400px;
+ 
+ }
+ .Tours-Details{
+     max-width:500px ; 
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+   margin-right: auto;
+   
+ }
+ 
+ 
+ .Tours-Details h1{
+     width: 300px;
+     height: 50px;
+     padding-bottom: 5px ;
+     margin: auto 0px;
+ }
+ 
+ .Tours-Details .btn{
+    background-color:#FF5400;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    width: 140px;
+    height: 30px;
+ }
