@@ -553,7 +553,7 @@ font-weight: 400;
 /* service ends here */
 
 /* facilities-2 starts here */
-   .facilities-2{
+   .facilities-2{   
     width: 1000px;
     
     /* border: 2px solid darkblue; */
@@ -628,3 +628,337 @@ font-weight: 800;
 
  }
  /* deals and discounts ends*/
+  /* banner 1 start here  */
+ .banner-1{
+   width: 1000px;
+   height: 400px;
+   /* display: flex; */
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+   position: relative;
+   text-align: center;
+ }
+ .banner-1 img{
+    width: 1000px;
+    height: 400px;
+    justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+ }
+
+ .banner-items{
+    width: 400px;
+    height: 300px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+ }
+ .clock{
+    display: flex;
+    align-items: center;
+ }
+ .clock p{
+    padding: 10px;
+ }
+ .peoples{
+    display: flex;
+    align-items: center;
+ }
+ .peoples p{
+    padding: 10PX;
+ }
+ .location{
+    display: flex;
+    align-items: center;
+ } 
+ .location P{
+    padding: 10PX;
+ }
+ .icon-items{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ }
+ 
+
+.satorini h1{
+    width: 186px;
+    height: 30px;
+    color: #131318;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.satorini p{
+    width: 350px;
+    height: 58px;
+    color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+}
+
+.price h1 {
+    color: #FF5400;
+font-size: 20px;
+font-weight: 800;
+width: 188px;
+height: 25px;
+}
+
+.book-button{
+    width: 130px;
+    height: 42px;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 800;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+
+}
+.banner-1{
+    margin-bottom: 20px;
+}
+   /* banner 1 end here */
+  /* banner-2 start here  */
+.banner-2{
+    width: 1000px;
+    height: 400px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+  }
+  .banner-2 img{
+     width: 1000px;
+     height: 400px;
+     justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+ 
+  .banner-items-2{
+     width: 400px;
+     height: 300px;
+     border-radius: 16px;
+     border: 2px solid #FFF;
+     background: rgba(255, 255, 255, 0.80);
+     backdrop-filter: blur(2.5px);
+     position: absolute;
+     top: 50%;
+     left: 25%;
+     transform: translate(-50%, -50%);
+     padding: 20px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+ 
+  }
+  .clock{
+     display: flex;
+     align-items: center;
+  }
+  .clock p{
+     padding: 10px;
+  }
+  .peoples{
+     display: flex;
+     align-items: center;
+  }
+  .peoples p{
+     padding: 10PX;
+  }
+  .location{
+     display: flex;
+     align-items: center;
+  } 
+  .location P{
+     padding: 10PX;
+  }
+  .icon-items{
+     width: 400px;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+  }
+  
+ 
+ .satorini h1{
+     width: 186px;
+     height: 30px;
+     color: #131318;
+ font-family: Mulish;
+ font-size: 24px;
+ font-style: normal;
+ font-weight: 800;
+ line-height: normal;
+ }
+ .satorini p{
+     width: 350px;
+     height: 58px;
+     color: #5A5A5D;
+ font-size: 16px;
+ font-weight: 400;
+ }
+ 
+ .price h1 {
+     color: #FF5400;
+ font-size: 20px;
+ font-weight: 800;
+ width: 188px;
+ height: 25px;
+ }
+ 
+ .book-button{
+     width: 130px;
+     height: 42px;
+     color: #FFF;
+     text-align: center;
+     font-size: 14px;
+     font-weight: 800;
+     border-radius: 8px;
+     background: #FF5400;
+     border: none;
+ 
+ }
+ /* banner 2 end here  */
+
+ /* banner-3 start here */
+ .banner-3{
+    width: 1000px;
+    height: 400px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+  }
+  .banner-3{
+    margin-top: 20px;
+  }
+  .banner-3 img{
+     width: 1000px;
+     height: 400px;
+     justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+ 
+  .banner-items{
+     width: 400px;
+     height: 300px;
+     border-radius: 16px;
+     border: 2px solid #FFF;
+     background: rgba(255, 255, 255, 0.80);
+     backdrop-filter: blur(2.5px);
+     position: absolute;
+     top: 50%;
+     left: 75%;
+     transform: translate(-50%, -50%);
+     padding: 20px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+ 
+  }
+  .clock{
+     display: flex;
+     align-items: center;
+  }
+  .clock p{
+     padding: 10px;
+  }
+  .peoples{
+     display: flex;
+     align-items: center;
+  }
+  .peoples p{
+     padding: 10PX;
+  }
+  .location{
+     display: flex;
+     align-items: center;
+  } 
+  .location P{
+     padding: 10PX;
+  }
+  .icon-items{
+     width: 400px;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+  }
+  
+ 
+ .satorini h1{
+     width: 186px;
+     height: 30px;
+     color: #131318;
+ font-family: Mulish;
+ font-size: 24px;
+ font-style: normal;
+ font-weight: 800;
+ line-height: normal;
+ }
+ .satorini p{
+     width: 350px;
+     height: 58px;
+     color: #5A5A5D;
+ font-size: 16px;
+ font-weight: 400;
+ }
+ 
+ .price h1 {
+     color: #FF5400;
+ font-size: 20px;
+ font-weight: 800;
+ width: 188px;
+ height: 25px;
+ }
+ 
+ .book-button{
+     width: 130px;
+     height: 42px;
+     color: #FFF;
+     text-align: center;
+     font-size: 14px;
+     font-weight: 800;
+     border-radius: 8px;
+     background: #FF5400;
+     border: none;
+ }
+ /* banner 3 end here */
+ .see-all-pacages{
+    width: 210px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 30px;
+ }
